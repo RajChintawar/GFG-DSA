@@ -7,7 +7,6 @@ class Aim2 {
         arr.add (30);
         arr.add (40);
         arr.add (50);
-        int n = arr.size();
         System.out.println("Array elements are: ");
             System.out.println(arr+" ");
 
