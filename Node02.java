@@ -1,15 +1,15 @@
-public class Node {
+public class Node02 {
     int data;
-    Node next;
-    Node(int data) {
+    Node02 next;
+    Node02(int data) {
         this.data = data;
         this.next = null;
     }   
 }
 class LinkedList {
-    Node head;
+    Node02 head;
     void insert(int data) {
-        Node newNode = new Node(data);
+        Node02 newNode = new Node02(data);
         newNode.next = head;
         head = newNode;
     }
@@ -21,7 +21,7 @@ return;
         head = head.next;
     }
     public void display() {
-        Node temp = head;
+        Node02 temp = head;
         while (temp != null) {
             System.out.print(temp.data + "-> ");
             temp = temp.next;
